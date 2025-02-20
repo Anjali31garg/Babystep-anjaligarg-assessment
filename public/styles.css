@@ -1,0 +1,56 @@
+.doctor-card {
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+
+.doctor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.doctor-card .card-body {
+    padding: 1.25rem;
+}
+
+.doctor-card .specialization {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.doctor-card .working-hours {
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+
+.appointment-form {
+    position: sticky;
+    top: 20px;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+.form-select:focus, .form-control:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.navbar {
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.alert {
+    margin-top: 1rem;
+}
+
+#timeSlot {
+    margin-bottom: 1rem;
+}
